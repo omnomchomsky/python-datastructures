@@ -27,6 +27,7 @@ def balancing_symbols_lexer(some_string, balancing_pairs=["()"]):
         print("Pass")
 
 
+#TODO Convert these into actual test cases
 balancing_symbols_lexer("()")
 balancing_symbols_lexer(")(")
 balancing_symbols_lexer("(()")
